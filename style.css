@@ -1,0 +1,55 @@
+.container {
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    background: lightcyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerQWE {
+    padding: 10px 40px 10px 30px;
+    background: lightblue;
+    display: flex;
+    height: 130px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+section {
+    background: lightgreen;
+}
+
+footer {
+    background: lightsalmon;
+}
+
+input, select {
+    width: 200px;
+}
+
+.button {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type=button] {
+    width: 100px;
+    height: 50px;
+}
+
+.table {
+
+}
