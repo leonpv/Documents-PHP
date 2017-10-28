@@ -31,13 +31,14 @@ section {
 
 footer {
     background: lightsalmon;
+    align-self: stretch;
 }
 
 input, select {
     width: 200px;
 }
 
-.button {
+.button-header {
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -45,11 +46,35 @@ input, select {
     flex-wrap: wrap;
 }
 
-input[type=button] {
+.button-footer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+input[type=button],input[type=reset] {
     width: 100px;
     height: 50px;
 }
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+}
 
 .table {
+    align-self: stretch;
+    width: auto;
+    height: 345px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
+footer input[type=button] {
+    width: auto;
+    height: 40px;
+}
+
+.plus-minus input[type=button] {
+    width: 65px;
 }
